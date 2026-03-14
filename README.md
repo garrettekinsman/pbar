@@ -104,10 +104,10 @@ SIGNERS             # Allowed signers for signature verification
 
 ## Signature Verification
 
-All core files are signed with the `gaho@kinsman.xyz` SSH key. To verify:
+All core files are signed with the `garrett@garrettekinsman.com` SSH key. To verify:
 
 ```bash
-ssh-keygen -Y verify -f SIGNERS -I gaho@kinsman.xyz -n openclaw-skill \
+ssh-keygen -Y verify -f SIGNERS -I garrett@garrettekinsman.com -n openclaw-skill \
   -s SKILL.md.sig < SKILL.md
 ```
 
