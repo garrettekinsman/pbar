@@ -1,8 +1,6 @@
 ---
 name: pbar
-version: 0.1.0
 description: Population-Based Annealed Research (PBAR) — autonomous AI-driven experiment loop. Runs parallel research branches, applies softmax selection with temperature annealing, and iterates indefinitely. Designed for ML training optimization on Apple Silicon (MLX) but applicable to any parameterized experiment. Use when asked to run autonomous research loops, optimize hyperparameters, or iterate experiments overnight.
-author: Rich DeVaul
 license: MIT
 ---
 
